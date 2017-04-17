@@ -4,7 +4,7 @@
   "bin": {
     "strava-segment-efforts": "./cli.js"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Retrieve Strava segment efforts as a readable stream",
   "license": "MIT",
   "repository": "bendrucker/strava-segment-efforts",
