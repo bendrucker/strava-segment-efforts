@@ -3,7 +3,7 @@
 'use strict'
 
 var meow = require('meow')
-var assert = require('assert')
+var assert = require('assert').strict
 var ndjson = require('ndjson')
 var efforts = require('./')
 

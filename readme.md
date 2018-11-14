@@ -1,4 +1,4 @@
-# strava-segment-efforts [![Build Status](https://travis-ci.org/bendrucker/strava-segment-efforts.svg?branch=master)](https://travis-ci.org/bendrucker/strava-segment-efforts)
+# strava-segment-efforts [![Build Status](https://travis-ci.org/bendrucker/strava-segment-efforts.svg?branch=master)](https://travis-ci.org/bendrucker/strava-segment-efforts) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/strava-segment-efforts.svg)](https://greenkeeper.io/)
 
 > Retrieve Strava segment efforts as a Readable stream
 

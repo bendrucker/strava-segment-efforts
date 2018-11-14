@@ -28,9 +28,9 @@ test('offline', function (t) {
     athleteId: 456,
     accessToken: 'token'
   })
-  .pipe(concat(function (data) {
-    t.deepEqual(data, [{id: 789}])
-  }))
+    .pipe(concat(function (data) {
+      t.deepEqual(data, [{ id: 789 }])
+    }))
 
   nock.restore()
 })
@@ -46,10 +46,10 @@ if (accessToken) {
       athleteId: 5723594,
       accessToken
     })
-    .pipe(concat(function (data) {
-      t.ok(data.every(function (row) {
-        return row.name === 'Hawk Hill'
+      .pipe(concat(function (data) {
+        t.ok(data.every(function (row) {
+          return row.name === 'Hawk Hill'
+        }))
       }))
-    }))
   })
 }
